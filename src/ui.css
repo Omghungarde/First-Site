@@ -1,0 +1,250 @@
+html{
+    font-size: 16px;
+
+
+
+}
+body{
+    background-color: #FFF8F0;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    color:#55206D;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: League Spartan;
+    font-size: 48px;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+h2{
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: black;
+}
+.bigtext{
+    color: #331E6A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.herosection{
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.herotext{
+    width:50%;
+    padding: 32px 20px 32px 20px;
+}
+.heroimagew{
+    width:50%;
+    /* border-bottom-right-radius: 10000px; */
+}
+#image{
+    width: 100%;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+.mail{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+}
+.name{
+    margin-top: 52px;
+}
+.buttonclick{
+    height: 44px;
+    width: 130px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.whatido{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1060px;
+}
+.lorem{
+    border: 1px solid rgb(128, 128, 128);
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+
+}
+.lorem1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.smallr{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    /* text-align: justify; */
+    color: #331E6A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #190D37;
+    text-align: center;
+}
+.Pricing{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1060px;
+}
+.sdf{
+    margin-top: 32px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+
+
+}
+.overtitle{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+
+}
+#pricingboxs{
+    display: flex;
+}
+.pricing-box{
+    width: 33.33%;
+    max-width: 1060px;
+    
+}
+.pricing-card{
+    background-color: #ffffff;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+.services{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2858FF;
+
+}
+.price{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    margin-top: 8px;
+}
+.perpage{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+}
+.pricedescription{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8B8B8B;
+    margin-top: 8px;
+}
+.service{
+    padding: 0px;
+    list-style: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+.service li{
+    margin-bottom: 8px;
+}
+.servicebutton{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 2px solid #2F2F2F;
+    background-color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #2F2F2F;
+}
+.servicebutton:hover{
+    cursor: pointer;
+    background-color: #2F2F2F;
+    color: #ffffff;
+}
+.card2{
+    background-color: #FFD748;
+}
+.card2 .services{
+    color: #000000;
+}
+.card li{
+    color: #000000BF;
+}
+.card2 .perpage .pricedescription{
+    color: #00000080;
+}
+.card2 .servicebutton{
+    border: 2px solid #2F2F2F;
+    background-color: #000000;
+    color: #ffffff;
+}
+.card2 .servicebutton:hover{
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+#footer{
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    /* height: 44px; */
+    padding: 10px;
+}
